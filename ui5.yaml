@@ -1,0 +1,7 @@
+specVersion: '1.0'
+metadata:
+  name: "zui5_odataUtils"
+type: library
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8

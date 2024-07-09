@@ -1,0 +1,51 @@
+{
+	"_version": "1.12.0",
+
+	"sap.app": {
+		"id": "com.companyname.it.zui5_odatautils",
+		"type": "library",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": " Odata Utility",
+		"description": " Odata Utility",
+		"ach": "",
+		"offline": true
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+
+		]
+	},
+
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.52.0",
+			"libs": {
+				"sap.ui.core": {
+					"minUI5Version": "1.52.0"
+				}
+			}
+		},
+		"library": {
+			"i18n": "messagebundle.properties",
+			"css": true,
+			"content": {
+				"controls": ["com.companyname.it.zui5_odatautils.ExtBusyDialog"],
+				"elements": [],
+				"types": [],
+				"interfaces": []
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": ""
+	},
+	"sap.fiori": {
+		"registrationIds": [],
+		"archeType": "reusecomponent"
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/resources/com/companyname/it/zui5_odatautils",
+      "target": {
+        "type": "application",
+        "name": "comcompanynameitzui5_odatautils"
+      },
+      "description": " Odata Utility"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "application",
+        "name": "comcompanynameitzui5_odatautils",
+        "entryPath": "test"
+      },
+      "description": " Odata Utility"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+}
