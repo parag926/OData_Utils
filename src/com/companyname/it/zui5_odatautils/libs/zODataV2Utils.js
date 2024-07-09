@@ -509,7 +509,6 @@ sap.ui.define([
 			}
 		},
 
-		//SOC ACHOPRADELOI- OR-2477-IRIS File Upload 28/07/2022
 		__callFunctionODataOperation: function (_options) {
 			var __bGlobalBusy = true;
 			try {
@@ -603,7 +602,6 @@ sap.ui.define([
 				}
 			}
 		},
-		//EOC ACHOPRADELOI- OR-2477-IRIS File Upload 28/07/2022
 
 		__submitChangeODataOperation: function (_options) {
 			var __bGlobalBusy = true;
