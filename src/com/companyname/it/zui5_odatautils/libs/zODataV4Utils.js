@@ -29,6 +29,7 @@ sap.ui.define([
 		expand -> The expand navigation property
 		select -> Array of properties to be fetched.
 		fnSuccess -> Function to be called after the read operation is completed.
+  		fnError -> Function to be called after the read operation is failed.
 		*/
 		__readODataOperation: function (_options) {
 			var __bGlobalBusy = true;
@@ -175,6 +176,7 @@ sap.ui.define([
 		expand -> The expand navigation property
 		select -> Array of properties to be fetched.
 		fnSuccess -> Function to be called after the read operation is completed.
+  		fnError -> Function to be called after the read operation is failed.
 		*/
 		__deleteODataOperation: function (_options) {
 			var __bGlobalBusy = true;
@@ -292,6 +294,7 @@ sap.ui.define([
 		expand -> The expand navigation property
 		select -> Array of properties to be fetched.
 		fnSuccess -> Function to be called after the read operation is completed.
+  		fnError -> Function to be called after the read operation is failed.
 		*/
 		__updateODataOperation: function (_options) {
 			var __bGlobalBusy = true;
@@ -442,6 +445,7 @@ sap.ui.define([
 		expand -> The expand navigation property
 		select -> Array of properties to be fetched.
 		fnSuccess -> Function to be called after the read operation is completed.
+  		fnError -> Function to be called after the read operation is failed.
 		*/
 		__createODataOperation: function (_options) {
 			var __bGlobalBusy = true;
@@ -546,6 +550,7 @@ sap.ui.define([
 		oHeaders -> Headers to be set for the model
 		sGroupId -> The group ID to be used for read requests
 		fnSuccess -> Function to be called after the read operation is completed.
+  		fnError -> Function to be called after the read operation is failed.
 		*/
 		__submitChangeODataOperation: function (_options) {
 			var __bGlobalBusy = true;
